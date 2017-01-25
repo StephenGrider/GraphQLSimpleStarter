@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import LoginForm from './components/LoginForm';
 
 const App = () => {
-  return <div>GraphQL Simple Starter</div>;
+  return (
+    <div><LoginForm /></div>
+  );
 };
 
 ReactDOM.render(<App />, document.querySelector('#root'));
