@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "json:server": "json-server --watch db.json",
-    "dev": "nodemon server.js --ignore client"
+    "dev": "nodemon index.js --ignore client"
   },
   "author": "",
   "license": "ISC",
@@ -19,8 +17,9 @@
     "express": "^4.14.0",
     "express-graphql": "^0.6.1",
     "graphql": "^0.8.2",
-    "json-server": "^0.9.4",
+    "html-webpack-plugin": "^2.26.0",
     "lodash": "^4.17.4",
+    "mongoose": "^4.7.8",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "webpack": "^2.2.0",
